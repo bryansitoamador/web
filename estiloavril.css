@@ -1,0 +1,29 @@
+.tablita{
+  width: 100%;
+  background-color: #c4dafa;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #4d82bc;
+  border-style: solid;
+  color: black;
+}
+
+.tablita td, .tablita th{
+  border-width: 2px;
+  border-color: #4d82bc;
+  border-style: solid;
+  padding: 5px;
+}
+
+.tablita thead{
+  background-color: #84b6f4;
+}
+body{
+  font-family: 'Barlow condensed', 'Arial Narrow', 'Roboto Condensed', 'Open Sans Condensed', sans-serif;
+  font-size: large;
+}
+
+.tablita{
+    font-family: 'Barlow condensed', 'Arial Narrow', 'Roboto Condensed', 'Open Sans Condensed', sans-serif;
+    font-size: large;
+}

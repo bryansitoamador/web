@@ -1,0 +1,83 @@
+#friday {
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    font-family: 'Barlow condensed', 'Arial Narrow', 'Roboto Condensed', 'Open Sans Condensed', sans-serif;
+    font-size: x-large;
+}
+ul {
+    list-style: none;
+}
+.nav li a{
+    background-color: #4d82bc;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 50px;
+}
+.nav > li{
+    float: left;
+}
+.nav li a:hover{
+    background: linear-gradient(to right, #84b6f4,#4d82bc);
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+.class {
+align-items: center;
+}
+.keso{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.875), rgba(68, 65, 65, 0.481));
+    background-size: cover;
+    background-position: center;
+}
+.awa{
+    background: fixed;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    color: rgb(50, 45, 45);
+    border-radius: 20px;
+    box-shadow: 2.5px 4px #060606;
+    font-weight: bold;
+    background: #c4dafa;
+    align-items: left;
+    justify-content: left;
+    font-size: x-large;
+}
+.caja{
+    background: fixed, #c4dafa;
+    display: block;
+    align-items: center;
+    padding: 5px;
+    margin: 50px;
+    align-content: center;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+
+
+}
+
+body{
+    font-family: 'Barlow condensed', 'Arial Narrow', 'Roboto Condensed', 'Open Sans Condensed', sans-serif;
+    font-size: large;
+}
