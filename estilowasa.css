@@ -81,3 +81,103 @@ body{
     font-family: 'Barlow condensed', 'Arial Narrow', 'Roboto Condensed', 'Open Sans Condensed', sans-serif;
     font-size: large;
 }
+
+.muymal{
+    width: 100%;
+    background-color: #c4dafa;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #00000000;
+    border-style: solid;
+    color: #000000;
+    font-weight: bold;
+    
+  }
+  
+  .muymal td, .muymal th {
+    border-width: 2px;
+    border-color: #ffffff00;
+    border-style: solid;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .muymal thead {
+    background-color: #84b6f4;
+    font-weight: bold;
+  }
+
+  .muymala{
+    width: 50%;
+    background-color: #efcc1e;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #A7A7A7;
+    border-style: solid;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .muymala td, .muymala th {
+    border-width: 2px;
+    border-color: #a7a7a726;
+    border-style: solid;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .muymala thead {
+    background-color: #ffffff;
+    font-weight: bold;
+  }
+
+  .vacia{
+    background-color: #ffffff00;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #a7a7a700;
+    border-style: solid;
+    color: #00000000;
+    font-weight: bold;
+    align-items: center;
+  }
+
+  .vacia td, .vacia th {
+    border-width: 2px;
+    border-color: #a7a7a700;
+    border-style: solid;
+    padding: 15px;
+    font-weight: bold;
+  }
+  
+  .vacia thead {
+    background-color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .muymalas{
+    width: 100%;
+    background-color: #c4dafa;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+    color: #090909;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  
+  .muymalas td, .muymalas th {
+    border-width: 2px;
+    border-color: #4d82bc;
+    border-style: solid;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .muymalas thead {
+    background-color: #84b6f4;
+    font-weight: bold;
+  }

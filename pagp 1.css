@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;400;600;800;900&display=swap');
 body{
     font-family: Barlow Condensed, Arial Narrow, Roboto Condensed, Open Sans Condensed, sans-serif;
-    margin: 0;
+    margin: auto;
     background: url(fondo2.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-size: contain;
 
     }
-
     .boton-modal label{
         padding: 10px 15px;
-        background-color: #5488a5;
+        background-color: #005187;
         color: #fff;
         border-radius: 4px;
         cursor: pointer;
@@ -39,7 +42,7 @@ body{
         width: 100%;
         max-width: 400px;
         padding: 20px;
-        background-color: #005187;
+        background-color: #fff;
         border-radius: 4px;
     }
     .content-modal h2{
@@ -65,7 +68,7 @@ body{
         transition: all 400ms ease;
     }
     .content-modal .btn-cerrar label:hover{
-    background-color: #185e18;
+    background-color: #005187;
 }
 .cerrar-modal{
     width: 100%;
@@ -95,22 +98,24 @@ a{
     width: 50%;
 }
 .tipicas{
-    width: 250px;
-    height: 350px;
+    width: 100%;
+        max-width: 400px;
+        padding: 20px;
+    height: 400px;
     justify-content: center;
-    padding: 10px;
 }
 .horizontales{
-    width: 550px;
-    height: 350px;
+    width: 100%;
+        max-width: 400px;
+        padding: 20px;
+    height: 250px;
     justify-content: center;
-    padding: 10px;
 }
 
 header{
     display: flex;
     min-height: 70px;
-    background: #4d82bc;
+    background: #005187;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -146,6 +151,12 @@ nav a:hover{
         flex-direction: column;
         align-items: center;
     }
+        .tipicas{
+            width: 90%;
+    }
+        .horizontales{
+            width: 90%;
+    }
     .alinear{
         margin-bottom: 10px;
     }
@@ -170,11 +181,11 @@ nav a:hover{
     padding: 10px;
     color: rgb(50, 45, 45);
     border-radius: 50px;
-    box-shadow: 15px 15px #c4dafa; /*sombra a la caja*/
+    box-shadow: 10px 10px #84b6f4; /*sombra a la caja*/
     font-weight: bold;
     background: #4d82bc;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 .box-1{
     background: fixed;
@@ -183,9 +194,9 @@ nav a:hover{
     padding: 10px;
     color: rgb(52, 143, 143);
     border-radius: 50px;
-    box-shadow: #005187;
+    box-shadow: 10px 10px #84b6f4;
     font-weight: bold;
-    background: #005187;
+    background: #4d82bc;
 }
 .box-2{
     background: fixed;
@@ -194,7 +205,7 @@ nav a:hover{
     padding: 10px;
     color: rgb(76, 75, 67);
     border-radius: 50px;
-    box-shadow: #005187;
+    box-shadow: 10px 10px #84b6f4;
     font-weight: bold;
     background: #4d82bc;
     text-align: center;
@@ -211,7 +222,7 @@ nav a:hover{
     margin: auto;
 }
 .boton{
-    background-color: #005187;
+    background-color: #3d3d34;
     padding: 20px;
 }
 }
